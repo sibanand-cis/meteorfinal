@@ -1,0 +1,17 @@
+<head>
+  <title>meteorfinal1</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+  {{#each services}}
+  		<h1>{{serviceAlias}}</h1>>
+  {{/each}}
+</template>
